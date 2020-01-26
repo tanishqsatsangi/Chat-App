@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84934103719",
+    "firebase_url": "https://chat-app-783ab.firebaseio.com",
+    "project_id": "chat-app-783ab",
+    "storage_bucket": "chat-app-783ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84934103719:android:29917074fb9141ce",
+        "android_client_info": {
+          "package_name": "com.goldenbirds.rex.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84934103719-clb23981a0vu1vv31i8oo1s216jthr58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goldenbirds.rex.chatapp",
+            "certificate_hash": "38f979f27ba59ce6906f0966c65c502767376a94"
+          }
+        },
+        {
+          "client_id": "84934103719-43onhsqqv6ejib4h02megecl5u37kvin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVXpBxzAjUIrqgfIOVBHEgjZPHc8bQFnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84934103719-43onhsqqv6ejib4h02megecl5u37kvin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

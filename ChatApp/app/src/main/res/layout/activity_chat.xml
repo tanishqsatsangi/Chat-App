@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5393914635807145/3845769724">
+    </com.google.android.gms.ads.AdView>
+
+
+    <RelativeLayout
+        android:layout_below="@id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/mssgtxtbox">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/msgview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+        <EditText
+            android:maxLines="3"
+            android:background="@drawable/border_layout"
+            android:id="@+id/mssgtxtbox"
+            android:layout_alignParentBottom="true"
+            android:hint="Enter  message here"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/sendbtn"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/sendbtn"
+        android:text="Send"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
